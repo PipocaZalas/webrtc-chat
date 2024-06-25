@@ -13,7 +13,7 @@
       <p class="mb-6">
         This example implements a simple chat application using it.
       </p>
-      <div class="grid grid-cols-2 gap-2">
+      <div class="grid grid-cols-2 gap-2 mb-6">
         <nuxt-link
           class="rounded-md bg-gray-200 hover:bg-gray-300 grid place-content-center font-medium py-6"
           to="/manual-signaling"
@@ -27,6 +27,10 @@
           Using a signaling server
         </nuxt-link>
       </div>
+      <p class="bg-orange-100 p-2 rounded text-sm">
+        At the moment we only support Webkit-based browsers like Chrome, Edge,
+        Brave and Safari. Firefox users will have to wait a little bit longer.
+      </p>
     </div>
   </div>
 </template>
